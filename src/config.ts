@@ -21,9 +21,9 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Lianghao's Blog",
-	subtitle: "A digital garden of thinking and making",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
+	title: "Spiralis",
+	subtitle: "生活如同循环，但并非原地运转",
+	siteURL: "https://spiralis.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-12-21", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -136,14 +136,14 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "欢迎来到 Spiralis", // 主页横幅主标题
+			title: "Spiralis · 螺旋", // 主页横幅主标题
 
 			subtitle: [
-				"虽无特别之事，有你在侧便已圆满",  
-				"你至今仍是我生命里的光",
-				"不知不觉间，你已成为我日复一日的晨昏日常",
-				"与你交谈时，连最寻常的日子都泛起微光",  
-				"今日不过寻常一日，却因点滴温暖而成良辰",
+				"阳光好的时候，就把自己放进去，像放一块陈皮",  
+				"进一寸有进一寸的欢喜",
+				"每个人都在时间里孤独地旋转", 
+				"我与我周旋久，宁作我",
+				"慢慢来，比较快",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
