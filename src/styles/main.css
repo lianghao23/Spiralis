@@ -26,6 +26,15 @@
   font-display: swap;
 }
 
+/* 导入 也字工厂可爱小熊体 字体 */
+@font-face {
+  font-family: "也字工厂可爱小熊体";
+  src: url("/assets/font/也字工厂可爱小熊体.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,6 +42,7 @@
 /* 确保平滑滚动 */
 html {
   scroll-behavior: smooth;
+  font-family: "ZenMaruGothic-Medium", "萝莉体 第二版", "也字工厂可爱小熊体", sans-serif;
 }
 
 /* 页面顶部渐变高光效果 */
